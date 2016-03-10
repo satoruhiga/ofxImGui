@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{308e62ea-6739-40d1-ab56-63d4f9a75ec9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\libs\imgui\src\imgui.cpp" />
+    <ClCompile Include="..\libs\imgui\src\imgui_demo.cpp" />
+    <ClCompile Include="..\libs\imgui\src\imgui_draw.cpp" />
+    <ClCompile Include="..\src\BaseEngine.cpp" />
+    <ClCompile Include="..\src\BaseTheme.cpp" />
+    <ClCompile Include="..\src\EngineGLFW.cpp" />
+    <ClCompile Include="..\src\EngineOpenGLES.cpp" />
+    <ClCompile Include="..\src\ofxImGui.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\libs\imgui\src\imgui.h" />
+    <ClInclude Include="..\libs\imgui\src\imgui_internal.h" />
+    <ClInclude Include="..\libs\imgui\src\stb_rect_pack.h" />
+    <ClInclude Include="..\libs\imgui\src\stb_textedit.h" />
+    <ClInclude Include="..\libs\imgui\src\stb_truetype.h" />
+    <ClInclude Include="..\src\BaseEngine.h" />
+    <ClInclude Include="..\src\BaseTheme.h" />
+    <ClInclude Include="..\src\EngineGLFW.h" />
+    <ClInclude Include="..\src\EngineOpenGLES.h" />
+    <ClInclude Include="..\src\imconfig.h" />
+    <ClInclude Include="..\src\ofxImGui.h" />
+    <ClInclude Include="..\src\ThemeTest.h" />
+  </ItemGroup>
+</Project>
